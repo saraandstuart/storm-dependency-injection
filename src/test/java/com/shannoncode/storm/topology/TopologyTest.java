@@ -33,8 +33,8 @@ public class TopologyTest
     private static final String SPOUT = "SPOUT";
     private static final String BOLT_CALCULATION = "BOLT_CALCULATION";
 
-    private static final List<Values> EXPECTED_SPOUT_OUTPUT = new ArrayList<Values>();
-    private static final List<Values> EXPECTED_BOLT_OUTPUT_CALCULATION = new ArrayList<Values>();
+    private static final List<Values> EXPECTED_SPOUT_OUTPUT = new ArrayList<>();
+    private static final List<Values> EXPECTED_BOLT_OUTPUT_CALCULATION = new ArrayList<>();
 
     @Test
     public void topologyFlow()
